@@ -1,0 +1,84 @@
+.search-bar {
+    width: 100%; /* Full width */
+    padding: 10px; /* Inner padding */
+    margin-bottom: 10px; /* Space below */
+    font-size: 16px; /* Text size */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  .search-button {
+    padding: 10px 20px; /* Button padding */
+    background-color: #57E591; /* Button background */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Button text color */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .search-button:hover {
+    background-color: #45c578; /* Darken button on hover */
+  }
+  
+  .search-results {
+    margin-top: 20px; /* Space above */
+    padding: 10px; /* Inner padding */
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  .search-results h4 {
+    margin-bottom: 10px; /* Space below heading */
+    color: var(--heading-color);
+  }
+  
+  .search-results p {
+    color: var(--heading-color);
+    white-space: pre-wrap; /* Preserve file formatting */
+  }
+
+  .dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 1000;
+    width: 80%;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    color: var(--heading-color);
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .search-results {
+    margin-top: 20px;
+    background-color: var(--info-bg);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-content {
+    color: var(--heading-color);
+    white-space: pre-wrap;
+  }
+  
+  .dropdown-menu {
+    width: 77%; /* Make the dropdown width match the search bar */
+  }
+  

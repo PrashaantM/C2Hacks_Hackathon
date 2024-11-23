@@ -1,0 +1,151 @@
+:root {
+  --mainPage-bg: #57E591;
+  --heading-color: #000000;
+  --header-bg: #ffffff;
+  --header-height: 60px;
+  --info-bg: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+.mainPage-container {
+  background-color: var(--mainPage-bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: var(--header-bg);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: var(--header-height);
+  width: 80%;
+  border-bottom: 2px solid var(--heading-color);
+  box-sizing: border-box;
+}
+
+.site-title {
+  color: var(--heading-color);
+  font-size: 24px;
+}
+
+.search-icon {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--heading-color);
+  position: absolute;
+  top: 24px;
+  right: 21%;
+}
+
+.info-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-container,
+.search-container {
+  width: 80%;
+  background: var(--info-bg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+  margin: 10px;
+  overflow: auto;
+}
+
+.assistant-container {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ai-assistant {
+  width: 90%;
+  height: 50px; /* Initial collapsed height */
+  background: var(--info-bg);
+  border-radius: 20px;
+  box-shadow: 0 4px 6px var(--shadow-color);
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 20px;
+  cursor: pointer; /* Pointer cursor for interaction */
+  display: flex;
+  align-items: center;
+}
+
+.ai-assistant.expanded {
+  height: 250px; /* Expanded height */
+  flex-direction: column;
+  text-align: center;
+}
+
+.assistant-image {
+  width: 40px; /* Image size */
+  height: 40px;
+  border-radius: 5px; /* Slightly rounded corners */
+  margin-right: 10px; /* Space between image and text */
+}
+
+.ai-assistant h3 {
+  margin-bottom: 10px;
+  color: var(--heading-color);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ai-assistant p {
+  color: var(--heading-color);
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Add these styles to your existing CSS */
+
+.chatbot {
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.chat-history {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.user, .bot {
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.user {
+  background-color: #d3f8e2;
+  align-self: flex-start;
+}
+
+.bot {
+  background-color: #f0f0f0;
+  align-self: flex-end;
+}
+
+.chat-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
