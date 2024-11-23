@@ -77,7 +77,7 @@ const App = () => {
     } else if (question.toLowerCase().includes('heating')) {
       return 'To save on heating costs, consider using programmable thermostats and proper insulation.';
     } else if (question.toLowerCase().includes('hi' || 'hey' || 'hello' || 'yo')) {
-      return 'Hello, if you have any doubts you can ask me anything.';
+      return 'Hello, if you have any questions you can ask me anything.';
     } else {
       return 'Sorry, I don’t have an answer for that. Can you ask something else?';
     }
