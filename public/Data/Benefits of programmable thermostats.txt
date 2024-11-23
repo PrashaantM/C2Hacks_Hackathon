@@ -1,0 +1,1 @@
+make it so that instead of "content" in the search recomendations the sustainabilityTipsPage is there instead. In the sustainabilityTipsPage there should be categories for waste management tips, electricity management tips, and water management tips. These categories should have the options to open the corresponding text files that fit in.
