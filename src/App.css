@@ -1,9 +1,9 @@
 :root {
-  --mainPage-bg: #57E591;
-  --heading-color: #000000;
-  --header-bg: #fffffff3;
+  --mainPage-bg: #B2D8D8;
+  --heading-color: #2C5F2D;
+  --header-bg: #DFF6DD;
   --header-height: 60px;
-  --info-bg: #ffffffdb;
+  --info-bg: #F0F8FF;
   --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
