@@ -51,7 +51,7 @@
 .search-container {
   width: 80%;
   background: var(--info-bg);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px var(--shadow-color);
   margin: 10px;
@@ -116,8 +116,6 @@
   margin: 0;
 }
 
-/* Add these styles to your existing CSS */
-
 .chatbot {
   width: 100%;
   max-height: 300px;
@@ -158,3 +156,71 @@
   box-sizing: border-box;
 }
 
+
+.search-results {
+  font-family: Arial, sans-serif;
+  background-color: #DFF6DD;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-results h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.search-results p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.search-results div {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #DFF6DD;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-results h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.search-results div p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.search-results div:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.search-results div h3 {
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.search-results div:hover h3 {
+  color: #2C5F2D;
+}
+
+.list-container h3 {
+  background-color: lightblue; /* Light blue background */
+  color: darkgreen; /* Dark green text color */
+  padding: 10px; /* Add padding for spacing */
+  margin: 10px 0; /* Add margin between list items */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.list-container h3:hover {
+  background-color: grey; /* Change background to grey on hover */
+}

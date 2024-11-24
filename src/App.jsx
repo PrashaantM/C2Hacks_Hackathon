@@ -165,6 +165,9 @@ const App = () => {
           <button className="search-icon" onClick={toggleSearch}>
             🔍
           </button>
+
+
+
         )}
       </div>
 
@@ -172,6 +175,8 @@ const App = () => {
         {showSearch ? (
           <div className="search-container">
             <h3>Search Recommendations</h3>
+
+            
             <input
               type="text"
               className="search-bar"
@@ -193,10 +198,12 @@ const App = () => {
               </ul>
             )}
             <div className="search-results">
-              <h4>{searchQuery} - Content</h4>
+              
+              <h4>{searchQuery} </h4>
               <p>{searchContent}</p>
             </div>
           </div>
+
         ) : (
           <div className="about-container">
           <h3>About Page</h3>
@@ -208,7 +215,55 @@ const App = () => {
             alt="Immigration Hub Overview"
             className="about-image"
           />
+
+<div className="list-container">
+      <div>
+                <h3>Rainwater harvesting systems for homes</h3>
+              </div>
+
+              <div>
+                <h3>Using low-flow faucets and showerheads</h3>
+              </div>
+
+              <div>
+                <h3>DIY irrigation systems for gardens</h3>
+              </div>
+
+              <div>
+                <h3>Benefits of programmable thermostats</h3>
+              </div>
+
+              <div>
+                <h3>Switching to energy-efficient light bulbs</h3>
+              </div>
+
+              <div>
+                <h3>Introduction to solar panel systems</h3>
+              </div>
+
+              <div>
+                <h3>Composting organic kitchen waste</h3>
+              </div>
+
+              <div>
+                <h3>Community programs for electronic recycling</h3>
+              </div>
+
+              <div>
+                <h3>Native plant landscaping to reduce water use</h3>
+              </div>
+
+              <div>
+                <h3>Sorting and recycling household materials</h3>
+              </div>
+
+              <div>
+                <h3>Upcycling ideas for everyday items</h3>
+              </div>
+      </div>
         </div>
+
+        
 
         )}
 
