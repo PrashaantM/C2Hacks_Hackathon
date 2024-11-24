@@ -23,8 +23,11 @@ const App = () => {
   };
 
   const toggleAssistant = () => {
-    setExpanded(!expanded); // Expand or collapse AI Assistant
+    if (!expanded) {
+      setExpanded(true); // Only expand the AI Assistant, never collapse
+    }
   };
+  
 
   const resetSearch = () => {
     setSearchQuery('');
